@@ -14,7 +14,7 @@
 
 6. [Program to create a cylinder and a parallelepiped by extruding  a circle and quadrilateral respectively. Allow the user to specify the circle and the quadrilateral.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/6.c)  
 
-7. [Program, using OpenGL functions, to draw a simple shaded scene consisting of a tea pot on a table. Define suitably the  position and properties of the light source along with the properties of the properties of the surfaces of the solid object used in the scene.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/7.c)  
+7. [Program, using OpenGL functions, to draw a simple shaded scene consisting of a tea pot on a table. Define suitably the  position and properties of the light source along with the properties of the surfaces of the solid object used in the scene.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/7.c)  
 
 8. [Program to draw a color cube and allow the user to move the camera suitably to experiment with perspective viewing. Use OpenGL functions.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/8.c) 
 
