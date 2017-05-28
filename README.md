@@ -79,3 +79,38 @@ You can install the required dependencies using the following commands
         cd ~/10CSL67/build
         ./executableName
    
+   
+   ## Executing on Windows using Visual Studio 2017   
+   1. Open Visual Studio
+   
+   2. Go to File -> New -> Project    
+   ![Create New Project](screenshots/pic1.png)
+   
+   3. In the "New Project" window, select "Visual C++" on the left panel, select "Win32 Console Application" and give the name of your project in the "Name" field below. Press OK.    
+   ![New Project Wizard](screenshots/pic2.png)
+   
+   4. In the "Win32 Application Wizard", 
+        * Proceed with the default settings for the first screen ("Overview" Screen)    
+        ![Win32 Application Wizard 1](screenshots/pic3.png)
+        * In the "Application Settings" screen, check "Console Application" and "Empty project". Proceed with Finish.    
+        ![Win32 Application Wizard 2](screenshots/pic4.png)
+   
+   5. In the "Solution Explorer", under your project name, right click on "Source Files". Select Add -> New Item.    
+   ![Solution Explorer 1](screenshots/pic5.png)
+   
+   6. In the "Add New Item" dialog box, select "Visual C++" on the left panel, select "C++ file" and enter a name for your source file in the "Name" field below. Click on "Add" button.    
+   ![Solution Explorer 2](screenshots/pic6.png)
+   
+   7. Copy the required C++ source code for your project from this repository and paste it in your source file. Eg.    
+   ![Source Code](screenshots/pic7.png)
+   
+   8. Go to Tools -> NuGet Package Manager -> Package Manager Console    
+   ![NuGet Package Manager](screenshots/pic8.png)
+   
+   9. In the console that appears below, run ```Install-Package nupengl.core```.    
+        Once it is successfully installed, the import error for GL/glut.h should disappear.   
+   ![NuGet Package Manager Console](screenshots/pic9.png)
+   
+   10. Run your project with the "Run" button on the toolbar OR Debug -> Start Debugging.
+   
+   11. Switch to Linux ASAP.
