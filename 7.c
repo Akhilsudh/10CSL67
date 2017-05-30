@@ -65,8 +65,7 @@ void display(void)
 	glLightfv(GL_LIGHT0, GL_DIFFUSE, lightIntensity);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	double winHt = 1.0;
-	glOrtho(-winHt * 64 / 48.0, winHt * 64 / 48.0, -winHt, winHt, 0.1, 100.0);
+	glOrtho(-64 / 48.0, 64 / 48.0, -1, 1, 0.1, 100.0);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	gluLookAt(2.3, 1.3 , 2.0, 0.0, 0.25, 0.0, 0.0, 1.0, 0.0);
