@@ -38,6 +38,7 @@ void circle_draw(GLint h,GLint k,GLint r)
 		else
 		{
 			d+=2*(x-y)+5;
+			y--;
 		}
 		++x;
 	}
