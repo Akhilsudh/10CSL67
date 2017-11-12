@@ -1,3 +1,5 @@
+<img src="http://image3.mouthshut.com/images/imagesp/925718051s.png"  width="120" height="100"/>
+
 ## Computer Graphics and Visualization Lab (VTU 10CSL67)
 
 ### PART A
